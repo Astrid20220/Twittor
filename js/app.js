@@ -1,4 +1,11 @@
 
+if(navigator.serviceWorked){
+    navigator.serviceWorker.register('/sw.js');
+}
+
+
+
+
 // Referencias de jQuery
 
 var titulo      = $('#titulo');
